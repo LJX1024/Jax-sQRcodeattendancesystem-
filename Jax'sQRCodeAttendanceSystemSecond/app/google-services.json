@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070300143559",
+    "firebase_url": "https://jaxsattendancesystem.firebaseio.com",
+    "project_id": "jaxsattendancesystem",
+    "storage_bucket": "jaxsattendancesystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070300143559:android:089e2e22ef09d40c",
+        "android_client_info": {
+          "package_name": "com.jax.android.jaxsqrcodeattendancesystemsecond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070300143559-bfpg3mordvklpbrmlh50fnbma8ehunp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jax.android.jaxsqrcodeattendancesystemsecond",
+            "certificate_hash": "ba209763319acc2308f67adc53fefc038acf38dc"
+          }
+        },
+        {
+          "client_id": "1070300143559-qvh5pg811fdrp79836o5jumpp1oobrft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWRivABuxUCH5B_LXTNVL3wQGB4plBhgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070300143559-qvh5pg811fdrp79836o5jumpp1oobrft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

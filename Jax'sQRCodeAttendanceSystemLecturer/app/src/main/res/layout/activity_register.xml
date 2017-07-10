@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jax.android.jaxsqrcodeattendancesystemlecturer.RegisterActivity">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="370dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteY="100dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="365dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="179dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/etComfirmPassword"
+        android:layout_width="365dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Comfirm your Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="179dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+    <EditText
+        android:id="@+id/etLecturerID"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Lecturer ID "
+        tools:layout_editor_absoluteY="248dp"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="378dp"
+        android:layout_height="56dp"
+        android:text="Register"
+        tools:layout_editor_absoluteY="355dp"
+        tools:layout_editor_absoluteX="3dp" />
+
+</LinearLayout>
